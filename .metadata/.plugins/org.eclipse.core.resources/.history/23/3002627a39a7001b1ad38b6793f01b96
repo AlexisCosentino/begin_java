@@ -1,0 +1,22 @@
+
+package camion;
+public class test {
+	public static void main(String[] args) {
+	int cartonTotal = 34;
+	int moving = 0;
+	int moved = 0;
+	
+	while (cartonTotal > 0) {
+		if (cartonTotal >= 9) {
+			moving = 9;
+			System.out.println("Le camion vient faire un trajet avec " + moving + " cartons.");
+			moved += moving;
+		} else{
+			System.out.println("Le camion vient faire un trajet final avec " + cartonTotal + " cartons.");
+			moved += cartonTotal;
+		}
+		cartonTotal -= moving;
+		moving = 0;
+	}
+}
+}

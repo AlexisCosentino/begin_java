@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\alexi\Desktop\Le campus Numerique\JAVA\.metadata\.plugins\org.eclipse.jdt.core
+1244824412.index
+3322971851.index

@@ -1,0 +1,24 @@
+package camion;
+
+public class Moving {
+    public static void main(String[] args) {
+        int count = 34;
+        int camionCont = 0;
+        int newLocal = 0;
+        while (count > 0) {
+            if (count >= 9) {
+                camionCont = 9;
+                count = count - 9;
+                System.out.print("Le camion voyage avec" + camionCont + "cartons");
+                newLocal = newLocal + camionCont;
+                camionCont = 0;
+            } else {
+                camionCont = count;
+                count = 0;
+                System.out.print("Le camion voyage avec" + camionCont + "cartons");
+                newLocal = newLocal + camionCont;
+                camionCont = 0;
+            }
+        }
+    }
+}
